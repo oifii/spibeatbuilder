@@ -1,3 +1,27 @@
+/*
+ * Copyright (c) 2010-2016 Stephane Poirier
+ *
+ * stephane.poirier@oifii.org
+ *
+ * Stephane Poirier
+ * 3532 rue Ste-Famille, #3
+ * Montreal, QC, H2X 2L1
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+
 ////////////////////////////////////////////////////////////////
 //nakedsoftware.org, spi@oifii.org or stephane.poirier@oifii.org
 //
@@ -471,7 +495,8 @@ int main(int argc, char *argv[])
 	////////////////
 
 
-	string path = "C:\\Program Files (x86)\\Native Instruments\\Sample Libraries\\Kontakt 3 Library\\Synth\\Z - Samples\\Synth Drums Samples\\New Rave Kit Samples\\";
+	//string path = "C:\\Program Files (x86)\\Native Instruments\\Sample Libraries\\Kontakt 3 Library\\Synth\\Z - Samples\\Synth Drums Samples\\New Rave Kit Samples\\";
+	string path = "C:\\Program Files\\Native Instruments\\Sample Libraries\\Kontakt 3 Library\\Synth\\Z - Samples\\Synth Drums Samples\\New Rave Kit Samples\\";
 	WavSet* pWavSet1 = new WavSet;
 	pWavSet1->ReadWavFile((path+"combipass.wav").c_str());
 	WavSet* pWavSet2 = new WavSet;
@@ -494,7 +519,8 @@ int main(int argc, char *argv[])
 	WavSet* pWavSet11 = new WavSet;
 	pWavSet11->ReadWavFile((path+"internaljugular.wav").c_str());
 
-	string path2 = "C:\\Program Files (x86)\\Native Instruments\\Sample Libraries\\Kontakt 3 Library\\World\\Z - Samples\\Djembe Kit Samples\\";
+	//string path2 = "C:\\Program Files (x86)\\Native Instruments\\Sample Libraries\\Kontakt 3 Library\\World\\Z - Samples\\Djembe Kit Samples\\";
+	string path2 = "C:\\Program Files\\Native Instruments\\Sample Libraries\\Kontakt 3 Library\\World\\Z - Samples\\Djembe Kit Samples\\";
 	WavSet* pWavSet12 = new WavSet;
 	pWavSet12->ReadWavFile((path2+"DJK_SLP_OPN_LRr_03.wav").c_str());
 
